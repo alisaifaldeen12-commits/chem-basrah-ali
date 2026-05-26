@@ -1,0 +1,38 @@
+basra-chem-community/
+├── .env.example
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── supabase_schema.sql
+├── README.md
+└── src/
+    ├── utils/
+    │   └── supabase.ts
+    ├── components/
+    │   ├── Navbar.tsx
+    │   └── Footer.tsx
+    └── app/
+        ├── globals.css
+        ├── layout.tsx
+        ├── page.tsx
+        ├── about/
+        │   └── page.tsx
+        ├── admin/
+        │   └── page.tsx
+        ├── ai-assistant/
+        │   └── page.tsx
+        ├── auth/
+        │   └── page.tsx
+        ├── community/
+        │   └── page.tsx
+        ├── courses/
+        │   └── page.tsx
+        ├── directory/
+        │   └── page.tsx
+        ├── jobs/
+        │   └── page.tsx
+        ├── unit-converter/
+        │   └── page.tsx
+        └── api/
+            └── ai/
+                └── route.ts
